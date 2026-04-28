@@ -10,11 +10,12 @@ export default function RootLayout() {
       "google.com": {
         includeSubdomains: true,
         publicKeyHashes: [
-          "CLOmM1/OXvSPjw5UOYbAf9GKOxImEp9hhku9W90fHMk=",
-          "hxqRlPTu1bMS/0DITB1SSu0vd4u/8l8TjPgfaAp63Gc=",
-          "Vfd95BwDeSQo+NUYxVEEIlvkOlWY2SalKK1lPhzOx78=",
-          "QXnt2YHvdHR3tJYmQIr0Paosp6t/nggsEGD4QJZ3Q0g=",
+          "mByPFXGC3qs3pyizMlKet2kRFl+S7endvVxmUoNkpg4=",
+          "vh78KSg1Ry4NaqGDV10w/cTb9VH3BQUZoCWNa93W/EY=",
           "mEflZT5enoR1FuXLgYYGqnVEoZvmf9c2bVBpiOjYQ0c=",
+          "a1p+fcRExRGObX8ZYsMzrJi1NOzEFxiu8B3rOKOTAK8=",
+          "YPtHaftLw6/0vnc2BnNKGF54xiCA28WFcccjkA4ypCM=",
+          "hxqRlPTu1bMS/0DITB1SSu0vd4u/8l8TjPgfaAp63Gc=",
         ],
       },
     }).finally(() => {

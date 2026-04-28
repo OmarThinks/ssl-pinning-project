@@ -1,4 +1,4 @@
-import { Text, View, StyleSheet, Button } from "react-native";
+import { Button, StyleSheet, Text, View } from "react-native";
 
 export default function Index() {
   return (
@@ -9,7 +9,7 @@ export default function Index() {
         onPress={() => {
           fetch("https://www.google.com")
             .then((response) => {
-              console.log(response);
+              console.log(JSON.stringify(response, null, 2));
             })
             .catch((error) => {
               console.log(error);
